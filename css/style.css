@@ -1,3 +1,11 @@
-body {
-  background-color: blue; /*testing style sheet*/
-}
+body {}
+
+
+/*main div it'll go in*/
+
+#main {}
+
+
+/*the heart button*/
+
+#favorite {}
