@@ -1,9 +1,28 @@
-body {}
+html, body {
+  font-family: 'Arvo', serif;
+  /*background-color: darkblue;*/
+}
 
 
 /*main div it'll go in*/
 
 #main {}
+
+#title {}
+
+#person {}
+
+h1 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+h5 {
+  font-family: 'Helvetica', Sans-Serif;
+  font-size: 12px;
+  color: #999;
+}
 
 
 /*the heart button*/

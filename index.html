@@ -5,13 +5,41 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Subreddit | Lupus Conversations</title>
+
+    <!-- Semantic Container, Cards -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/components/container.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/components/card.css"/>
+
+    <!-- Google Font Arvo  -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <!-- Tiffany's CSS file -->
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <div class="main">
-      <h1>Title Here</h1>
+
+    <div class="ui raised container">
+      <div class="ui card">
+        <div class="image"></div>
+        <div class="content" id="main">
+          <a class="header" id="title"></a>
+        </div>
+        <div class="extra content">
+          <i class="user icon"></i>
+          <p id="person"></p>
+        </div>
+      </div>
     </div>
+    <!-- end container  -->
   </body>
+
+  <!-- jQuery for AJAX, etc -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!-- Tiffany's JS file -->
   <script type="text/javascript" src="/js/script.js"></script>
 </html>
