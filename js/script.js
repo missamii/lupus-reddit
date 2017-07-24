@@ -24,7 +24,9 @@ window.onload = function() {
       var outputTitle = document.getElementById('title');
       var outputImage = document.getElementsByName('src'); // get back to this one
       var outputAuthor = document.getElementById('person');
-
+      for (var i = 0; i < array.length; i++) {
+        // loop thru data here
+      }
 
       outputTitle.innerHTML = '<h1>' + lupusData[0].data.title + '</h1>';
       outputImage.attributionHTML = '<img src="' + lupusData[4].data.preview.images[0].source.url + '">';
